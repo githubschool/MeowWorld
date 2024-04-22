@@ -2,8 +2,9 @@
 
 This is a repository meant to be used as a demo for the Meow World Application.
 
-Built on 
+Built with:
 
+- Docker
 - Python and Django
 - PostgreSQL for the database
 - React for the frontend

@@ -2,8 +2,11 @@
     "name": "Python-NodeJS",
     "build": {
         "dockerfile": "Dockerfile",
-        "context": ".."
+        "context": "..",
+        
     },
+    "runArgs": ["--init"],
+    "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
     "customizations": {
         "vscode": {
             "extensions": [
